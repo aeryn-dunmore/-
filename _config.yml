@@ -2,7 +2,7 @@
 locale                   : "en-NZ"
 title                    : "Aeryn Dunmore"
 title_separator          : "-"
-name                     : &quot;Aeryn Dunmore&quot;
+name                     : "Aeryn Dunmore"
 description              : "PhD Candidate in Machine Learning and Affective Computing, University of Auckland."
 url                      : "https://aeryn-dunmore.github.io"
 baseurl                  : ""
@@ -25,7 +25,7 @@ author:
   name             : "Aeryn Dunmore"
   avatar           : "profile.jpg"
   pronouns         : "she/her"
-  bio              : "PhD Candidate · Machine Learning &amp; Affective Computing · University of Auckland"
+  bio              : "PhD Candidate · Machine Learning & Affective Computing · University of Auckland"
   location         : "Auckland, New Zealand"
   employer         : "Auckland Bioengineering Institute"
   uri              :
