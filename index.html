@@ -539,6 +539,18 @@ section:nth-child(even) .project-card { background: var(--cream); }
   margin-bottom: 1.5rem;
 }
 
+div.project-card {
+  cursor: default;
+}
+
+div.project-card:hover {
+  border-color: var(--line);
+}
+
+div.project-card::after {
+  display: none;
+}
+
 .project-tech {
   font-size: 0.68rem;
   font-weight: 500;
@@ -887,7 +899,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div class="pub-arrow">↗</div>
     </a>
 
-    <a class="pub-item reveal" href="https://doi.org/10.1109/ACCESS.2022.0092316" target="_blank" rel="noopener">
+    <a class="pub-item reveal" href="https://ieeexplore.ieee.org/abstract/document/10187144" target="_blank" rel="noopener">
       <div class="pub-year">2023</div>
       <div class="pub-content">
         <div class="pub-venue">IEEE Access · Vol. 11</div>
@@ -947,7 +959,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div class="pub-arrow">↗</div>
     </a>
 
-    <a class="pub-item reveal" href="https://www.researchgate.net/publication/363478221" target="_blank" rel="noopener">
+    <a class="pub-item reveal" href="https://doi.org/10.4225/75/58a6991e71023" target="_blank" rel="noopener">
       <div class="pub-year">2016</div>
       <div class="pub-content">
         <div class="pub-venue">AISM Conference</div>
@@ -957,7 +969,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div class="pub-arrow">↗</div>
     </a>
 
-    <a class="pub-item reveal" href="https://www.researchgate.net/publication/363478317" target="_blank" rel="noopener">
+    <a class="pub-item reveal" href="https://doi.org/10.4225/75/58a6975133e06" target="_blank" rel="noopener">
       <div class="pub-year">2016</div>
       <div class="pub-content">
         <div class="pub-venue">AISM Conference</div>
@@ -990,8 +1002,9 @@ footer a:hover { color: rgba(253,250,246,0.9); }
     <h2 class="section-title">Research Projects</h2>
     <div class="section-rule"></div>
   </div>
+  
   <div class="project-grid">
-    <a href="#" class="project-card reveal">
+    <!-- <a href="#" class="project-card reveal"> -->
       <span class="project-status status-active">Active</span>
       <h3 class="project-title">Tōku Hoa</h3>
       <p class="project-body">A personalised AI agent for mental health support, integrating multimodal emotion recognition — speech, biometrics, and facial expression — for real-time affective response. PhD project at the Empathic Computing Lab, University of Auckland.</p>
@@ -1075,7 +1088,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
   <div class="contact-left reveal">
     <h2>Get in<br><em>touch</em></h2>
     <p>I welcome contact from researchers, industry practitioners, and collaborators working in machine learning, cybersecurity, and affective computing. I aim to respond within five working days.</p>
-    <a href="mailto:aeryn.dunmore@auckland.ac.nz" class="contact-email">a.dunmore@aucklanduni.ac.nz</a>
+    <a href="mailto:aeryn.dunmore@auckland.ac.nz" class="contact-email">aeryn.dunmore@auckland.ac.nz</a>
   </div>
   <div class="contact-right reveal">
     <a href="https://scholar.google.com/citations?user=BgURrfUAAAAJ&hl=en" class="contact-link" target="_blank" rel="noopener">
