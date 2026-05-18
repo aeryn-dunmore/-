@@ -195,18 +195,24 @@ nav.scrolled { box-shadow: 0 2px 24px rgba(44,26,14,0.08); }
 .hero-right {
   position: relative;
   overflow: hidden;
-  background: var(--brown-dark);
+  background: var(--cream);
   opacity: 0;
   animation: fadeIn 1s 0.3s forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 3rem;
 }
 
 .hero-right img {
   width: 100%;
-  height: 100%;
+  max-width: 380px;
+  height: auto;
+  aspect-ratio: 1;
   object-fit: cover;
   object-position: center top;
-  opacity: 0.85;
-  mix-blend-mode: luminosity;
+  border-radius: 2px;
+  box-shadow: 0 8px 40px rgba(44,26,14,0.15);
 }
 
 .hero-right-overlay {
@@ -858,6 +864,26 @@ footer a:hover { color: rgba(253,250,246,0.9); }
   </div>
   <div class="pub-list">
 
+    <div class="pub-item reveal">
+      <div class="pub-year">2026</div>
+      <div class="pub-content">
+        <div class="pub-venue">In Progress</div>
+        <div class="pub-title">Speech Emotion Recognition using Variable Length Speech Data Through New Tokenization Approaches</div>
+        <div class="pub-authors">Dunmore, Billinghurst, Gupta, Wen, Wang</div>
+      </div>
+      <div class="pub-arrow">—</div>
+    </div>
+
+    <div class="pub-item reveal">
+      <div class="pub-year">2026</div>
+      <div class="pub-content">
+        <div class="pub-venue">Under Review · IEEE Transactions on Affective Computing</div>
+        <div class="pub-title">Efficient Optimisation of HyperParameters for Increases in Speech Emotion Recognition Accuracy</div>
+        <div class="pub-authors">Dunmore, Billinghurst, Gupta, Wen, Nassani, Wang</div>
+      </div>
+      <div class="pub-arrow">—</div>
+    </div>
+
     <a class="pub-item reveal" href="https://arxiv.org/abs/2411.14029" target="_blank" rel="noopener">
       <div class="pub-year">2024</div>
       <div class="pub-content">
@@ -923,7 +949,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div class="pub-content">
         <div class="pub-venue">Master's Thesis · Auckland University of Technology</div>
         <div class="pub-title">Using Graphic Based Systems to Improve Cryptographic Algorithms</div>
-        <div class="pub-authors">Dunmore — First Class Honours</div>
+        <div class="pub-authors">Chapman (Dunmore) — First Class Honours</div>
       </div>
       <div class="pub-arrow">↗</div>
     </a>
@@ -933,7 +959,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div class="pub-content">
         <div class="pub-venue">AISM Conference</div>
         <div class="pub-title">Using Graphic Methods to Challenge Cryptographic Performance</div>
-        <div class="pub-authors">Cusack, Dunmore</div>
+        <div class="pub-authors">Cusack, Chapman (Dunmore)</div>
       </div>
       <div class="pub-arrow">↗</div>
     </a>
@@ -943,7 +969,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div class="pub-content">
         <div class="pub-venue">AISM Conference</div>
         <div class="pub-title">Celestial Sources for Random Number Generation</div>
-        <div class="pub-authors">Dunmore, Grewar, Natusch</div>
+        <div class="pub-authors">Chapman (Dunmore), Grewar, Natusch</div>
       </div>
       <div class="pub-arrow">↗</div>
     </a>
@@ -953,14 +979,14 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div class="pub-content">
         <div class="pub-venue">Digital Forensics Magazine · Issue 29</div>
         <div class="pub-title">Challenging Cryptographic Performance</div>
-        <div class="pub-authors">Dunmore, Cusack</div>
+        <div class="pub-authors">Chapman (Dunmore), Cusack</div>
       </div>
       <div class="pub-arrow">↗</div>
     </a>
 
   </div>
   <p style="margin-top:2rem; font-size:0.82rem; font-weight:300; color:var(--brown-muted)">
-    Full list on <a href="https://scholar.google.com/citations?user=BgURrfUAAAAJ&hl=en" style="color:var(--rust); text-decoration:none" target="_blank">Google Scholar</a> &nbsp;·&nbsp; <a href="https://www.researchgate.net/profile/Aeryn-Dunmore" style="color:var(--rust); text-decoration:none" target="_blank">ResearchGate</a>
+    Publications from 2016 appear under the name Erin Chapman. &nbsp;Full list on <a href="https://scholar.google.com/citations?user=BgURrfUAAAAJ&hl=en" style="color:var(--rust); text-decoration:none" target="_blank">Google Scholar</a> &nbsp;·&nbsp; <a href="https://www.researchgate.net/profile/Aeryn-Dunmore" style="color:var(--rust); text-decoration:none" target="_blank">ResearchGate</a>
   </p>
 </section>
 
@@ -1008,17 +1034,26 @@ footer a:hover { color: rgba(253,250,246,0.9); }
   </div>
   <div class="timeline">
     <div class="timeline-item reveal">
-      <div class="timeline-period">2023 — present</div>
+      <div class="timeline-period">2025 — present</div>
       <div>
-        <div class="timeline-degree">PhD, Machine Learning &amp; Affective Computing</div>
+        <div class="timeline-degree">PhD, Bioengineering</div>
         <div class="timeline-institution">University of Auckland · Auckland Bioengineering Institute</div>
-        <div class="timeline-detail">Empathic Computing Lab · Supervisors: Prof. Ruili Wang, Prof. Mark Billinghurst · Tōku Hoa Project</div>
+        <div class="timeline-detail">Empathic Computing Lab · Supervisors: Prof. Mark Billinghurst, Dr Kunal Gupta, Dr Elliott Wen, Prof. Ruili Wang · Tōku Hoa Project — funded by MBIE Catalyst Strategic Investment Fund in partnership with Soul Machines</div>
       </div>
     </div>
     <div class="timeline-item reveal">
-      <div class="timeline-period">2017 — 2023</div>
+      <div class="timeline-period">2023 — 2025</div>
       <div>
-        <div class="timeline-degree">Research Assistant</div>
+        <div class="timeline-degree">PhD, Computer Science</div>
+        <div class="timeline-institution">Massey University · College of Sciences</div>
+        <div class="timeline-detail">Thesis transferred to University of Auckland in 2025 · Supervisors: Prof. Ruili Wang, Prof. Mark Billinghurst, Dr Feng Hou</div>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal">
+      <div class="timeline-period">2022 — 2023</div>
+      <div>
+        <div class="timeline-degree">Research Support Assistant</div>
         <div class="timeline-institution">Massey University · Cybersecurity Lab</div>
         <div class="timeline-detail">GAN-based intrusion detection, malware classification, lightweight cryptography · Supervisor: Assoc. Prof. Julian Jang-Jaccard</div>
       </div>
@@ -1028,15 +1063,15 @@ footer a:hover { color: rgba(253,250,246,0.9); }
       <div>
         <div class="timeline-degree">MCIS, First Class Honours</div>
         <div class="timeline-institution">Auckland University of Technology</div>
-        <div class="timeline-detail">Thesis: Using Graphic Based Systems to Improve Cryptographic Algorithms · Supervisor: Dr Brian Cusack</div>
+        <div class="timeline-detail">Thesis: Using Graphic Based Systems to Improve Cryptographic Algorithms · Supervisor: Dr Brian Cusack · Dean's Award for Excellence in Postgraduate Study · Invited Talk: "Advancing stream cipher performance and computability", AUT Winter Research Series, July 2016</div>
       </div>
     </div>
     <div class="timeline-item reveal">
-      <div class="timeline-period">Studies</div>
+      <div class="timeline-period">2017 — 2018</div>
       <div>
-        <div class="timeline-degree">Cybersecurity</div>
-        <div class="timeline-institution">University of Oxford</div>
-        <div class="timeline-detail">Incomplete due to illness</div>
+        <div class="timeline-degree">DPhil, Centre for Doctoral Training in Cybersecurity</div>
+        <div class="timeline-institution">Pembroke College, University of Oxford</div>
+        <div class="timeline-detail">Incomplete due to illness · Atlantic Council Cyber 9/12 Challenge semi-finalist, BT Tower London · InterACE Hackathon, University of Cambridge · Founded (in)Security departmental newsletter</div>
       </div>
     </div>
   </div>
@@ -1047,7 +1082,7 @@ footer a:hover { color: rgba(253,250,246,0.9); }
   <div class="contact-left reveal">
     <h2>Get in<br><em>touch</em></h2>
     <p>I welcome contact from researchers, industry practitioners, and collaborators working in machine learning, cybersecurity, and affective computing. I aim to respond within five working days.</p>
-    <a href="mailto:a.dunmore@aucklanduni.ac.nz" class="contact-email">a.dunmore@aucklanduni.ac.nz</a>
+    <a href="mailto:aeryn.dunmore@auckland.ac.nz" class="contact-email">a.dunmore@aucklanduni.ac.nz</a>
   </div>
   <div class="contact-right reveal">
     <a href="https://scholar.google.com/citations?user=BgURrfUAAAAJ&hl=en" class="contact-link" target="_blank" rel="noopener">
